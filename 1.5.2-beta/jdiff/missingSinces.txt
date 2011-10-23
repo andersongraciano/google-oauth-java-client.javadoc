@@ -1,0 +1,18 @@
+OK: com.google.api.client.extensions.appengine.auth.AbstractAppEngineTwoLeggedFlowServlet Class
+OK: com.google.api.client.extensions.servlet.auth.AbstractTwoLeggedFlowServlet Class
+OK: com.google.api.client.extensions.appengine.auth.SignedTokenGenerator Class
+OK: com.google.api.client.extensions.auth.helpers.TwoLeggedFlow Interface
+MISSING @SINCE TAG: com.google.api.client.auth.oauth2.draft10.AccessProtectedResource Constructor (java.lang.String, com.google.api.client.auth.oauth2.draft10.AccessProtectedResource.Method, HttpTransport, JsonFactory, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+MISSING @SINCE TAG: com.google.api.client.auth.oauth2.draft10.AccessTokenRequest Constructor (HttpTransport, JsonFactory, java.lang.String)
+MISSING @SINCE TAG: com.google.api.client.auth.oauth2.draft10.AccessTokenRequest Constructor (HttpTransport, JsonFactory, java.lang.String, java.lang.String)
+MISSING @SINCE TAG: com.google.api.client.auth.oauth2.draft10.AccessTokenRequest Constructor (HttpTransport, JsonFactory, java.lang.String, java.lang.String, java.lang.String)
+MISSING @SINCE TAG: com.google.api.client.auth.oauth2.draft10.AccessTokenRequest.AssertionGrant Constructor (HttpTransport, JsonFactory, java.lang.String, java.lang.String, java.lang.String)
+MISSING @SINCE TAG: com.google.api.client.auth.oauth2.draft10.AccessTokenRequest.AuthorizationCodeGrant Constructor (HttpTransport, JsonFactory, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+MISSING @SINCE TAG: com.google.api.client.auth.oauth2.draft10.AccessTokenRequest.RefreshTokenGrant Constructor (HttpTransport, JsonFactory, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+MISSING @SINCE TAG: com.google.api.client.auth.oauth2.draft10.AccessTokenRequest.ResourceOwnerPasswordCredentialsGrant Constructor (HttpTransport, JsonFactory, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+OK: com.google.api.client.auth.oauth2.draft10.AccessProtectedResource Method executeAccessTokenRequest(com.google.api.client.auth.oauth2.draft10.AccessTokenRequest)
+OK: com.google.api.client.extensions.servlet.auth.AbstractFlowUserServlet Method getCredential(HttpServletRequest)
+OK: com.google.api.client.extensions.auth.helpers.Credential Method isInvalid()
+NO DOC BLOCK: com.google.api.client.extensions.auth.helpers.oauth2.draft10.OAuth2Credential Method isInvalid()
+NO DOC BLOCK: com.google.api.client.extensions.servlet.auth.AbstractFlowUserServlet Method service(HttpServletRequest, HttpServletResponse)
+MISSING @SINCE TAG: com.google.api.client.extensions.auth.helpers.oauth2.draft10.OAuth2Credential Method setAccessToken(java.lang.String)
