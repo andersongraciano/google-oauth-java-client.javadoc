@@ -1,0 +1,10 @@
+com.google.api.client.auth
+com.google.api.client.auth.oauth
+com.google.api.client.auth.oauth2.draft10
+com.google.api.client.extensions.appengine.auth
+com.google.api.client.extensions.appengine.auth.helpers
+com.google.api.client.extensions.auth.helpers
+com.google.api.client.extensions.auth.helpers.appengine
+com.google.api.client.extensions.auth.helpers.oauth
+com.google.api.client.extensions.auth.helpers.oauth2.draft10
+com.google.api.client.extensions.servlet.auth
