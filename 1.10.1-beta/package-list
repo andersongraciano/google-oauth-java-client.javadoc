@@ -1,0 +1,14 @@
+com.google.api.client.auth.jsontoken
+com.google.api.client.auth.oauth
+com.google.api.client.auth.oauth2
+com.google.api.client.auth.oauth2.draft10
+com.google.api.client.auth.openidconnect
+com.google.api.client.auth.security
+com.google.api.client.extensions.appengine.auth
+com.google.api.client.extensions.appengine.auth.oauth2
+com.google.api.client.extensions.auth.helpers
+com.google.api.client.extensions.auth.helpers.oauth
+com.google.api.client.extensions.auth.helpers.oauth2.draft10
+com.google.api.client.extensions.jdo.auth.oauth2
+com.google.api.client.extensions.servlet.auth
+com.google.api.client.extensions.servlet.auth.oauth2
