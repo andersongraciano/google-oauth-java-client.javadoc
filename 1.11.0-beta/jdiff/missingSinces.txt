@@ -1,0 +1,8 @@
+OK: com.google.api.client.extensions.servlet.auth.oauth2.AbstractAuthorizationCodeServlet Method onAuthorization(HttpServletRequest, HttpServletResponse, com.google.api.client.auth.oauth2.AuthorizationCodeRequestUrl)
+OK: com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder Method setAuthorizationServerEncodedUrl(java.lang.String)
+OK: com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder Method setClientAuthentication(HttpExecuteInterceptor)
+OK: com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder Method setClientId(java.lang.String)
+OK: com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder Method setJsonFactory(JsonFactory)
+OK: com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder Method setMethod(com.google.api.client.auth.oauth2.Credential.AccessMethod)
+OK: com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder Method setTokenServerUrl(GenericUrl)
+OK: com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder Method setTransport(HttpTransport)
