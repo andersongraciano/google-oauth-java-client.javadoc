@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<comments
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+  xsi:noNamespaceSchemaLocation='comments.xsd'
+  name="Google_OAuth_Client_Library_for_Java_1.13.1-beta_to_Google_OAuth_Client_Library_for_Java_1.14.0-beta"
+  jdversion="1.1.1">
+
+<!-- This file contains comments for a JDiff report. -->
+<!-- It is used only in generating the report, and does not need to ship with the final report. -->
+
+<!-- The id attribute in an identifier element identifies the change as noted in the report. -->
+<!-- An id has the form package[.class[.[ctor|method|field].signature]], where [] indicates optional text. -->
+<!-- A comment element can have multiple identifier elements, which will -->
+<!-- will cause the same text to appear at each place in the report, but -->
+<!-- will be converted to separate comments when the comments file is used. -->
+<!-- HTML tags in the text field will appear in the report. -->
+<!-- You also need to close p HTML elements, used for paragraphs - see the top-level documentation. -->
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken.JsonWebSignature"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken.JsonWebSignature.Header"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken.JsonWebSignature.Header.clone_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken.JsonWebSignature.Header.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken.JsonWebSignature.Parser"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken.JsonWebToken"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken.JsonWebToken.Header"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken.JsonWebToken.Header.clone_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken.JsonWebToken.Header.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken.JsonWebToken.Payload"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken.JsonWebToken.Payload.clone_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken.JsonWebToken.Payload.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken.RsaSHA256Signer"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.jsontoken.RsaSHA256Signer.sign_changed(java.security.PrivateKey, JsonFactory, com.google.api.client.auth.jsontoken.JsonWebSignature.Header, com.google.api.client.auth.jsontoken.JsonWebToken.Payload)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth.OAuthRsaSigner"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeFlow"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.getCredentialCreatedListener_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.setCredentialCreatedListener_added(com.google.api.client.auth.oauth2.AuthorizationCodeFlow.CredentialCreatedListener)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.CredentialCreatedListener"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.ctor_added(com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.ctor_added(com.google.api.client.auth.oauth2.Credential.AccessMethod, HttpTransport, JsonFactory, GenericUrl, HttpExecuteInterceptor, java.lang.String, java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.ctor_changed(com.google.api.client.auth.oauth2.Credential.AccessMethod, HttpTransport, JsonFactory, GenericUrl, HttpExecuteInterceptor, java.lang.String, java.lang.String, com.google.api.client.auth.oauth2.CredentialStore, HttpRequestInitializer, java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.ctor_changed(com.google.api.client.auth.oauth2.Credential.AccessMethod, HttpTransport, JsonFactory, GenericUrl, HttpExecuteInterceptor, java.lang.String, java.lang.String, com.google.api.client.auth.oauth2.CredentialStore, HttpRequestInitializer, java.lang.String, Clock)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeRequestUrl"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeRequestUrl.clone_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeRequestUrl.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeResponseUrl"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeResponseUrl.clone_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeResponseUrl.getError_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeResponseUrl.setError_changed(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeResponseUrl.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeTokenRequest"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationCodeTokenRequest.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationRequestUrl"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationRequestUrl.clone_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationRequestUrl.ctor_changed(java.lang.String, java.lang.String, java.lang.Iterable&lt;java.lang.String&gt;)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationRequestUrl.getRedirectUri_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationRequestUrl.getResponseTypes_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationRequestUrl.getScopes_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationRequestUrl.getState_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationRequestUrl.setRedirectUri_changed(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationRequestUrl.setResponseTypes_changed(java.lang.Iterable&lt;java.lang.String&gt;)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationRequestUrl.setResponseTypes_changed(java.lang.String[])"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationRequestUrl.setScopes_changed(java.lang.Iterable&lt;java.lang.String&gt;)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationRequestUrl.setScopes_changed(java.lang.String[])"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationRequestUrl.setState_changed(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.AuthorizationRequestUrl.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.BearerToken"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.BearerToken.authorizationHeaderAccessMethod_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.BearerToken.formEncodedBodyAccessMethod_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.BearerToken.queryParameterAccessMethod_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.BrowserClientRequestUrl"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.BrowserClientRequestUrl.clone_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.BrowserClientRequestUrl.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.ClientCredentialsTokenRequest"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.ClientParametersAuthentication"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.ClientParametersAuthentication.ctor_changed(java.lang.String, java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.ClientParametersAuthentication.getClientSecret_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.Credential"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.Credential.AccessMethod"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.Credential.ctor_added(com.google.api.client.auth.oauth2.Credential.Builder)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.Credential.ctor_changed(com.google.api.client.auth.oauth2.Credential.AccessMethod, HttpTransport, JsonFactory, java.lang.String, HttpExecuteInterceptor, HttpRequestInitializer, java.util.List&lt;com.google.api.client.auth.oauth2.CredentialRefreshListener&gt;)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.Credential.ctor_changed(com.google.api.client.auth.oauth2.Credential.AccessMethod, HttpTransport, JsonFactory, java.lang.String, HttpExecuteInterceptor, HttpRequestInitializer, java.util.List&lt;com.google.api.client.auth.oauth2.CredentialRefreshListener&gt;, Clock)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.PasswordTokenRequest"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.RefreshTokenRequest"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.RefreshTokenRequest.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenErrorResponse"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenErrorResponse.clone_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenErrorResponse.getError_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenErrorResponse.setErrorDescription_changed(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenErrorResponse.setErrorUri_changed(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenErrorResponse.setError_changed(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenErrorResponse.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenRequest"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenRequest.getScopes_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenRequest.setScopes_changed(java.lang.Iterable&lt;java.lang.String&gt;)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenRequest.setScopes_changed(java.lang.String[])"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenRequest.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenResponse"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenResponse.clone_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenResponse.getTokenType_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenResponse.setAccessToken_changed(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenResponse.setExpiresInSeconds_changed(java.lang.Long)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenResponse.setRefreshToken_changed(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenResponse.setScope_changed(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenResponse.setTokenType_changed(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenResponse.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.oauth2.TokenResponseException"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.openidconnect"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.openidconnect.IdToken"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.openidconnect.IdToken.Payload"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.openidconnect.IdTokenResponse"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.openidconnect.IdTokenResponse.clone_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.openidconnect.IdTokenResponse.parseIdToken_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.openidconnect.IdTokenResponse.setIdToken_changed(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.openidconnect.IdTokenResponse.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.security"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.security.PrivateKeys"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.security.PrivateKeys.loadFromKeyStore_changed(java.io.InputStream, java.lang.String, java.lang.String, java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.security.PrivateKeys.loadFromKeyStore_changed(java.security.KeyStore, java.io.InputStream, java.lang.String, java.lang.String, java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.security.PrivateKeys.loadFromP12File_changed(java.io.File, java.lang.String, java.lang.String, java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.security.PrivateKeys.loadFromPk8File_removed(java.io.File)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.security.PrivateKeys.loadFromPkcs8PemFile_changed(java.io.File)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.auth.security.PrivateKeys.readFromPemFormattedFile_changed(java.io.File)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.AuthorizationCodeInstalledApp"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.AuthorizationCodeInstalledApp.authorize_changed(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.AuthorizationCodeInstalledApp.onAuthorization_changed(com.google.api.client.auth.oauth2.AuthorizationCodeRequestUrl)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.FileCredentialStore"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.FileCredentialStore.ctor_changed(java.io.File, JsonFactory)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.FilePersistedCredential"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.FilePersistedCredential.clone_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.FilePersistedCredential.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.FilePersistedCredentials"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.FilePersistedCredentials.clone_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.FilePersistedCredentials.set_added(java.lang.String, java.lang.Object)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.VerificationCodeReceiver"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.VerificationCodeReceiver.getRedirectUri_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.VerificationCodeReceiver.stop_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="com.google.api.client.extensions.java6.auth.oauth2.VerificationCodeReceiver.waitForCode_changed()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+
+</comments>
