@@ -18,7 +18,7 @@ com.google.api.client.auth.oauth2 Documentation Differences
 <TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
   <TABLE summary="Navigation bar" BORDER="0" CELLPADDING="0" CELLSPACING="3">
     <TR ALIGN="center" VALIGN="top">
-      <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1"> <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/package-summary.html" target="_top"><FONT CLASS="NavBarFont1"><B><tt>Google API Client Library for Java 1.16.0-rc</tt></B></FONT></A>&nbsp;</TD>
+      <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1"> <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/package-summary.html" target="_top"><FONT CLASS="NavBarFont1"><B><tt>Google OAuth Client Library for Java 1.16.0-rc</tt></B></FONT></A>&nbsp;</TD>
       <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1"> <A HREF="changes-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
       <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1"> &nbsp;<FONT CLASS="NavBarFont1">Package</FONT>&nbsp;</TD>
       <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1"> &nbsp;<FONT CLASS="NavBarFont1">Class</FONT>&nbsp;</TD>
@@ -61,22 +61,22 @@ Similarly, documentation which was inherited from another class or interface is 
 </blockquote>
 <hr>
 
-<A NAME="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.dmethod.getCredentialStore()"></A><a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.html" class="hiddenlink">Class <b>AuthorizationCodeFlow.Builder</b></a>, <a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.html#com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.getCredentialStore_changed()" class="hiddenlink">CredentialStore <b>getCredentialStore()</b></a><br><br><blockquote><A HREF="../Google API Client Library for Java 1.16.0-rc/Beta.html"><TT>Beta</TT></A> <br/>
+<A NAME="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.dmethod.getCredentialStore()"></A><a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.html" class="hiddenlink">Class <b>AuthorizationCodeFlow.Builder</b></a>, <a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.html#com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.getCredentialStore_changed()" class="hiddenlink">CredentialStore <b>getCredentialStore()</b></a><br><br><blockquote><A HREF="../Google OAuth Client Library for Java 1.16.0-rc/Beta.html"><TT>Beta</TT></A> <br/>
  Returns the credential persistence store or {@code null} for none.<span style="background: #FFFF00">
- @deprecated (scheduled to be removed in 1.17) Use <A HREF="../Google API Client Library for Java 1.16.0-rc/.html#getCredentialDataStore()"><TT>.getCredentialDataStore()</TT></A> instead.</span></blockquote>
+ @deprecated (scheduled to be removed in 1.17) Use <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/.html#getCredentialDataStore()"><TT>.getCredentialDataStore()</TT></A> instead.</span></blockquote>
 <A NAME="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.dmethod.getScopes()"></A><a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.html" class="hiddenlink">Class <b>AuthorizationCodeFlow.Builder</b></a>, <a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.html#com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.getScopes_changed()" class="hiddenlink">Collection&lt;String&gt; <b>getScopes()</b></a><br><br><blockquote>Returns a collection of scopes.<strike>
 
  
  Upgrade warning: in prior version 1.14 this method returned a String, but starting
  with version 1.15 it returns a Collection.
  </strike></blockquote>
-<A NAME="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.dmethod.setCredentialStore(CredentialStore)"></A><a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.html" class="hiddenlink">Class <b>AuthorizationCodeFlow.Builder</b></a>, <a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.html#com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.setCredentialStore_changed(com.google.api.client.auth.oauth2.CredentialStore)" class="hiddenlink">Builder <b>setCredentialStore(CredentialStore)</b></a><br><br><blockquote><A HREF="../Google API Client Library for Java 1.16.0-rc/Beta.html"><TT>Beta</TT></A> <br/>
+<A NAME="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.dmethod.setCredentialStore(CredentialStore)"></A><a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.html" class="hiddenlink">Class <b>AuthorizationCodeFlow.Builder</b></a>, <a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.html#com.google.api.client.auth.oauth2.AuthorizationCodeFlow.Builder.setCredentialStore_changed(com.google.api.client.auth.oauth2.CredentialStore)" class="hiddenlink">Builder <b>setCredentialStore(CredentialStore)</b></a><br><br><blockquote><A HREF="../Google OAuth Client Library for Java 1.16.0-rc/Beta.html"><TT>Beta</TT></A> <br/>
  Sets the credential persistence store or {@code null} for none.
 
  <p>
- <span style="background: #FFFF00">Warning: not compatible with <A HREF="../Google API Client Library for Java 1.16.0-rc/.html#setDataStoreFactory"><TT>.setDataStoreFactory</TT></A> or <A HREF="../Google API Client Library for Java 1.16.0-rc/.html#setCredentialDataStore"><TT>.setCredentialDataStore</TT></A>,
+ <span style="background: #FFFF00">Warning: not compatible with <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/.html#setDataStoreFactory"><TT>.setDataStoreFactory</TT></A> or <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/.html#setCredentialDataStore"><TT>.setCredentialDataStore</TT></A>,
  and if either of those is called before this method is called, this method will throw an
- <A HREF="../Google API Client Library for Java 1.16.0-rc/IllegalArgumentException.html"><TT>IllegalArgumentException</TT></A>.
+ <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/IllegalArgumentException.html"><TT>IllegalArgumentException</TT></A>.
  </p>
 
  </p>
@@ -86,12 +86,12 @@ Similarly, documentation which was inherited from another class or interface is 
  </p><span style="background: #FFFF00">
 
  @deprecated (scheduled to be removed in 1.17) Use
-             <A HREF="../Google API Client Library for Java 1.16.0-rc/.html#setDataStoreFactory(DataStoreFactory)"><TT>.setDataStoreFactory(DataStoreFactory)</TT></A> or
-             <A HREF="../Google API Client Library for Java 1.16.0-rc/.html#setCredentialDataStore(DataStore)"><TT>.setCredentialDataStore(DataStore)</TT></A> instead.</span></blockquote>
+             <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/.html#setDataStoreFactory(DataStoreFactory)"><TT>.setDataStoreFactory(DataStoreFactory)</TT></A> or
+             <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/.html#setCredentialDataStore(DataStore)"><TT>.setCredentialDataStore(DataStore)</TT></A> instead.</span></blockquote>
 <hr align="left" width="100%">
-<A NAME="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.dmethod.getCredentialStore()"></A><a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.html" class="hiddenlink">Class <b>AuthorizationCodeFlow</b></a>, <a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.html#com.google.api.client.auth.oauth2.AuthorizationCodeFlow.getCredentialStore_changed()" class="hiddenlink">CredentialStore <b>getCredentialStore()</b></a><br><br><blockquote><A HREF="../Google API Client Library for Java 1.16.0-rc/Beta.html"><TT>Beta</TT></A> <br/>
+<A NAME="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.dmethod.getCredentialStore()"></A><a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.html" class="hiddenlink">Class <b>AuthorizationCodeFlow</b></a>, <a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.html#com.google.api.client.auth.oauth2.AuthorizationCodeFlow.getCredentialStore_changed()" class="hiddenlink">CredentialStore <b>getCredentialStore()</b></a><br><br><blockquote><A HREF="../Google OAuth Client Library for Java 1.16.0-rc/Beta.html"><TT>Beta</TT></A> <br/>
  Returns the credential persistence store or {@code null} for none.<span style="background: #FFFF00">
- @deprecated (scheduled to be removed in 1.17) Use <A HREF="../Google API Client Library for Java 1.16.0-rc/.html#getCredentialDataStore()"><TT>.getCredentialDataStore()</TT></A> instead.</span></blockquote>
+ @deprecated (scheduled to be removed in 1.17) Use <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/.html#getCredentialDataStore()"><TT>.getCredentialDataStore()</TT></A> instead.</span></blockquote>
 <A NAME="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.dmethod.getScopes()"></A><a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.html" class="hiddenlink">Class <b>AuthorizationCodeFlow</b></a>, <a href="com.google.api.client.auth.oauth2.AuthorizationCodeFlow.html#com.google.api.client.auth.oauth2.AuthorizationCodeFlow.getScopes_changed()" class="hiddenlink">Collection&lt;String&gt; <b>getScopes()</b></a><br><br><blockquote>Returns the a collection of scopes.<strike>
 
  
@@ -128,15 +128,15 @@ Similarly, documentation which was inherited from another class or interface is 
  </pre>
 
  <p>
- If you need to persist the access token in a data store, use <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/Credential/DataStoreFactory.html"><TT><strike>CredentialStore</strike><span style="background: #FFFF00">DataStoreFactory</span></TT></A> and
- <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/Credential/Builder.html#addRefreshListener(CredentialRefreshListener)"><TT>Builder.addRefreshListener(CredentialRefreshListener)</TT></A><span style="background: #FFFF00"> with
- <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/Credential/DataStoreCredentialRefreshListener.html"><TT>DataStoreCredentialRefreshListener</TT></A></span>.
+ If you need to persist the access token in a data store, use <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/Credential/DataStoreFactory.html"><TT><strike>CredentialStore</strike><span style="background: #FFFF00">DataStoreFactory</span></TT></A> and
+ <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/Credential/Builder.html#addRefreshListener(CredentialRefreshListener)"><TT>Builder.addRefreshListener(CredentialRefreshListener)</TT></A><span style="background: #FFFF00"> with
+ <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/Credential/DataStoreCredentialRefreshListener.html"><TT>DataStoreCredentialRefreshListener</TT></A></span>.
  </p>
 
  <p>
  If you have a custom request initializer, request execute interceptor, or unsuccessful response
- handler, take a look at the sample usage for <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/Credential/HttpExecuteInterceptor.html"><TT>HttpExecuteInterceptor</TT></A> and
- <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/Credential/HttpUnsuccessfulResponseHandler.html"><TT>HttpUnsuccessfulResponseHandler</TT></A>, which are interfaces that this class also implements.
+ handler, take a look at the sample usage for <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/Credential/HttpExecuteInterceptor.html"><TT>HttpExecuteInterceptor</TT></A> and
+ <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/Credential/HttpUnsuccessfulResponseHandler.html"><TT>HttpUnsuccessfulResponseHandler</TT></A>, which are interfaces that this class also implements.
  </p>
 
  @since 1.7
@@ -170,22 +170,22 @@ Similarly, documentation which was inherited from another class or interface is 
  <p>
  Default implementation checks <strike>for</strike><span style="background: #FFFF00">if {@code WWW-Authenticate} exists and contains</span> a <strike>401</strike><span style="background: #FFFF00">"Bearer" value
  (see <a href="http://tools.ietf.org/html/rfc6750#section-3.1">rfc6750 section 3.1</a> for more
- details). If so, it calls <A HREF="../Google API Client Library for Java 1.16.0-rc/.html#refreshToken"><TT>.refreshToken</TT></A> in case the</span> error code <span style="background: #FFFF00">contains
+ details). If so, it calls <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/.html#refreshToken"><TT>.refreshToken</TT></A> in case the</span> error code <span style="background: #FFFF00">contains
  {@code invalid_token}. If there is no "Bearer" in {@code WWW-Authenticate} </span>and <span style="background: #FFFF00">the status code
- is <A HREF="../Google API Client Library for Java 1.16.0-rc/HttpStatusCodes.html#STATUS_CODE_UNAUTHORIZED"><TT>HttpStatusCodes.STATUS_CODE_UNAUTHORIZED</TT></A> it </span>calls <A HREF="../Google API Client Library for Java 1.16.0-rc/.html#refreshToken"><TT>.refreshToken<strike>()</strike></TT></A>. If
- <A HREF="../Google API Client Library for Java 1.16.0-rc/.html#executeRefreshToken()"><TT>.executeRefreshToken()</TT></A> throws an I/O exception, this implementation will log the
+ is <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/HttpStatusCodes.html#STATUS_CODE_UNAUTHORIZED"><TT>HttpStatusCodes.STATUS_CODE_UNAUTHORIZED</TT></A> it </span>calls <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/.html#refreshToken"><TT>.refreshToken<strike>()</strike></TT></A>. If
+ <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/.html#executeRefreshToken()"><TT>.executeRefreshToken()</TT></A> throws an I/O exception, this implementation will log the
  exception and return {@code false}. Subclasses may override.
  </p></blockquote>
 <A NAME="com.google.api.client.auth.oauth2.Credential.dmethod.refreshToken()"></A><a href="com.google.api.client.auth.oauth2.Credential.html" class="hiddenlink">Class <b>Credential</b></a>, <a href="com.google.api.client.auth.oauth2.Credential.html#com.google.api.client.auth.oauth2.Credential.refreshToken_changed()" class="hiddenlink">boolean <b>refreshToken()</b></a><br><br><blockquote>Request a new access token from the authorization endpoint.
 
  <p>
- On success, it will call <A HREF="../Google API Client Library for Java 1.16.0-rc/.html#setFromTokenResponse(TokenResponse)"><TT>.setFromTokenResponse(TokenResponse)</TT></A>, call
- <A HREF="../Google API Client Library for Java 1.16.0-rc/CredentialRefreshListener.html#onTokenResponse"><TT>CredentialRefreshListener.onTokenResponse</TT></A> with the token response, and return
- {@code true}. On error, it will call <A HREF="../Google API Client Library for Java 1.16.0-rc/.html#setAccessToken(String)"><TT>.setAccessToken(String)</TT></A> and
- <A HREF="../Google API Client Library for Java 1.16.0-rc/.html#setExpiresInSeconds(Long)"><TT>.setExpiresInSeconds(Long)</TT></A> with {@code null}, call
- <A HREF="../Google API Client Library for Java 1.16.0-rc/CredentialRefreshListener.html#onTokenErrorResponse"><TT>CredentialRefreshListener.onTokenErrorResponse</TT></A> with the token error response, and
+ On success, it will call <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/.html#setFromTokenResponse(TokenResponse)"><TT>.setFromTokenResponse(TokenResponse)</TT></A>, call
+ <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/CredentialRefreshListener.html#onTokenResponse"><TT>CredentialRefreshListener.onTokenResponse</TT></A> with the token response, and return
+ {@code true}. On error, it will call <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/.html#setAccessToken(String)"><TT>.setAccessToken(String)</TT></A> and
+ <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/.html#setExpiresInSeconds(Long)"><TT>.setExpiresInSeconds(Long)</TT></A> with {@code null}, call
+ <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/CredentialRefreshListener.html#onTokenErrorResponse"><TT>CredentialRefreshListener.onTokenErrorResponse</TT></A> with the token error response, and
  return {@code false}. If a 4xx error is encountered while refreshing the token,
- <A HREF="../Google API Client Library for Java 1.16.0-rc/TokenResponseException.html"><TT>TokenResponseException</TT></A> is thrown.
+ <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/TokenResponseException.html"><TT>TokenResponseException</TT></A> is thrown.
  </p>
 
  <p><span style="background: #FFFF00">
@@ -194,13 +194,13 @@ Similarly, documentation which was inherited from another class or interface is 
 
  </span>@return whether a new access token was successfully retrieved</blockquote>
 <hr align="left" width="100%">
-<A NAME="com.google.api.client.auth.oauth2.CredentialStore!class"></A><a href="com.google.api.client.auth.oauth2.CredentialStore.html" class="hiddenlink">Class <b>CredentialStore</b></a><br><br><blockquote><A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStore/Beta.html"><TT>Beta</TT></A> <br/>
+<A NAME="com.google.api.client.auth.oauth2.CredentialStore!class"></A><a href="com.google.api.client.auth.oauth2.CredentialStore.html" class="hiddenlink">Class <b>CredentialStore</b></a><br><br><blockquote><A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStore/Beta.html"><TT>Beta</TT></A> <br/>
  OAuth 2.0 credential persistence store interface to provide a fully pluggable storage mechanism.
 
  <p>
  The user ID should be used as the primary key for storage, and the rest of the data consists of
- the <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStore/Credential.html#getAccessToken"><TT>access token</TT></A>, <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStore/Credential.html#getRefreshToken"><TT>refresh
- token</TT></A>, and <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStore/Credential.html#getExpirationTimeMilliseconds"><TT>expiration time</TT></A>.
+ the <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStore/Credential.html#getAccessToken"><TT>access token</TT></A>, <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStore/Credential.html#getRefreshToken"><TT>refresh
+ token</TT></A>, and <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStore/Credential.html#getExpirationTimeMilliseconds"><TT>expiration time</TT></A>.
  </p>
 
  <p>
@@ -209,29 +209,29 @@ Similarly, documentation which was inherited from another class or interface is 
 
  @since 1.7
  @author Yaniv <strike>Inbar</strike><span style="background: #FFFF00">Inbar
- @deprecated (scheduled to be removed in 1.17) Use <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStore/DataStoreFactory.html"><TT>DataStoreFactory</TT></A> with
-             <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStore/StoredCredential.html"><TT>StoredCredential</TT></A> instead.</span></blockquote>
+ @deprecated (scheduled to be removed in 1.17) Use <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStore/DataStoreFactory.html"><TT>DataStoreFactory</TT></A> with
+             <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStore/StoredCredential.html"><TT>StoredCredential</TT></A> instead.</span></blockquote>
 <hr align="left" width="100%">
-<A NAME="com.google.api.client.auth.oauth2.CredentialStoreRefreshListener!class"></A><a href="com.google.api.client.auth.oauth2.CredentialStoreRefreshListener.html" class="hiddenlink">Class <b>CredentialStoreRefreshListener</b></a><br><br><blockquote><A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStoreRefreshListener/Beta.html"><TT>Beta</TT></A> <br/>
+<A NAME="com.google.api.client.auth.oauth2.CredentialStoreRefreshListener!class"></A><a href="com.google.api.client.auth.oauth2.CredentialStoreRefreshListener.html" class="hiddenlink">Class <b>CredentialStoreRefreshListener</b></a><br><br><blockquote><A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStoreRefreshListener/Beta.html"><TT>Beta</TT></A> <br/>
  Thread-safe OAuth 2.0 credential refresh listener that stores the refresh token response in the
  credential store.
 
  <p>
- It needs to be added as a refresh listener using <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStoreRefreshListener/Credential/Builder.html#addRefreshListener"><TT>Credential.Builder.addRefreshListener</TT></A>.
+ It needs to be added as a refresh listener using <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStoreRefreshListener/Credential/Builder.html#addRefreshListener"><TT>Credential.Builder.addRefreshListener</TT></A>.
  </p>
 
  @since 1.7
  @author Yaniv <strike>Inbar</strike><span style="background: #FFFF00">Inbar
- @deprecated (scheduled to be removed in 1.17) Use <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStoreRefreshListener/DataStoreCredentialRefreshListener.html"><TT>DataStoreCredentialRefreshListener</TT></A>
+ @deprecated (scheduled to be removed in 1.17) Use <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/CredentialStoreRefreshListener/DataStoreCredentialRefreshListener.html"><TT>DataStoreCredentialRefreshListener</TT></A>
              instead.</span></blockquote>
 <hr align="left" width="100%">
-<A NAME="com.google.api.client.auth.oauth2.MemoryCredentialStore!class"></A><a href="com.google.api.client.auth.oauth2.MemoryCredentialStore.html" class="hiddenlink">Class <b>MemoryCredentialStore</b></a><br><br><blockquote><A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/MemoryCredentialStore/Beta.html"><TT>Beta</TT></A> <br/>
+<A NAME="com.google.api.client.auth.oauth2.MemoryCredentialStore!class"></A><a href="com.google.api.client.auth.oauth2.MemoryCredentialStore.html" class="hiddenlink">Class <b>MemoryCredentialStore</b></a><br><br><blockquote><A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/MemoryCredentialStore/Beta.html"><TT>Beta</TT></A> <br/>
  Thread-safe in-memory implementation of a credential store.
 
  @since 1.7
  @author Yaniv <strike>Inbar</strike><span style="background: #FFFF00">Inbar
- @deprecated (scheduled to be removed in 1.17) Use <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/MemoryCredentialStore/MemoryDataStoreFactory.html"><TT>MemoryDataStoreFactory</TT></A> with
-             <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/MemoryCredentialStore/StoredCredential.html"><TT>StoredCredential</TT></A> instead.</span></blockquote>
+ @deprecated (scheduled to be removed in 1.17) Use <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/MemoryCredentialStore/MemoryDataStoreFactory.html"><TT>MemoryDataStoreFactory</TT></A> with
+             <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/auth/oauth2/MemoryCredentialStore/StoredCredential.html"><TT>StoredCredential</TT></A> instead.</span></blockquote>
 <hr align="left" width="100%">
 
 </BODY>

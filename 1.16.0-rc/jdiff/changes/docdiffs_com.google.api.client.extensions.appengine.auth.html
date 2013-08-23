@@ -18,7 +18,7 @@ com.google.api.client.extensions.appengine.auth Documentation Differences
 <TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
   <TABLE summary="Navigation bar" BORDER="0" CELLPADDING="0" CELLSPACING="3">
     <TR ALIGN="center" VALIGN="top">
-      <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1"> <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/package-summary.html" target="_top"><FONT CLASS="NavBarFont1"><B><tt>Google API Client Library for Java 1.16.0-rc</tt></B></FONT></A>&nbsp;</TD>
+      <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1"> <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/package-summary.html" target="_top"><FONT CLASS="NavBarFont1"><B><tt>Google OAuth Client Library for Java 1.16.0-rc</tt></B></FONT></A>&nbsp;</TD>
       <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1"> <A HREF="changes-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
       <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1"> &nbsp;<FONT CLASS="NavBarFont1">Package</FONT>&nbsp;</TD>
       <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1"> &nbsp;<FONT CLASS="NavBarFont1">Class</FONT>&nbsp;</TD>
@@ -61,10 +61,10 @@ Similarly, documentation which was inherited from another class or interface is 
 </blockquote>
 <hr>
 
-<A NAME="com.google.api.client.extensions.appengine.auth.AbstractAppEngineCallbackServlet!class"></A><a href="com.google.api.client.extensions.appengine.auth.AbstractAppEngineCallbackServlet.html" class="hiddenlink">Class <b>AbstractAppEngineCallbackServlet</b></a><br><br><blockquote><A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineCallbackServlet/Beta.html"><TT>Beta</TT></A> <br/>
- This servlet fills in some of the required information for the <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineCallbackServlet/AbstractCallbackServlet.html"><TT>AbstractCallbackServlet</TT></A>
+<A NAME="com.google.api.client.extensions.appengine.auth.AbstractAppEngineCallbackServlet!class"></A><a href="com.google.api.client.extensions.appengine.auth.AbstractAppEngineCallbackServlet.html" class="hiddenlink">Class <b>AbstractAppEngineCallbackServlet</b></a><br><br><blockquote><A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineCallbackServlet/Beta.html"><TT>Beta</TT></A> <br/>
+ This servlet fills in some of the required information for the <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineCallbackServlet/AbstractCallbackServlet.html"><TT>AbstractCallbackServlet</TT></A>
  with reasonable defaults for App Engine. It will default the servlet to creating
- <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineCallbackServlet/UrlFetchTransport.html"><TT>UrlFetchTransport</TT></A> objects whenever an <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineCallbackServlet/HttpTransport.html"><TT>HttpTransport</TT></A> is needed. It will also
+ <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineCallbackServlet/UrlFetchTransport.html"><TT>UrlFetchTransport</TT></A> objects whenever an <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineCallbackServlet/HttpTransport.html"><TT>HttpTransport</TT></A> is needed. It will also
  default the user identifier to the logged in App Engine user. This servlet requires that the App
  Engine user must be logged in to work correctly. This can be accomplished by adding a security
  constraint in your web.xml for the path at which this servlet will live.
@@ -86,11 +86,11 @@ Similarly, documentation which was inherited from another class or interface is 
  </pre>
 
  <p>
- Warning: starting with version 1.7, usage of this for OAuth 2.0 is deprecated. Instead use <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineCallbackServlet/com/google/api/client/extensions/appengine/auth/oauth2/AbstractAppEngineAuthorizationCodeCallbackServlet.html"><TT>com.google.api.client.extensions.appengine.auth.oauth2.AbstractAppEngineAuthorizationCodeCallbackServlet</TT></A>.
+ Warning: starting with version 1.7, usage of this for OAuth 2.0 is deprecated. Instead use <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineCallbackServlet/com/google/api/client/extensions/appengine/auth/oauth2/AbstractAppEngineAuthorizationCodeCallbackServlet.html"><TT>com.google.api.client.extensions.appengine.auth.oauth2.AbstractAppEngineAuthorizationCodeCallbackServlet</TT></A>.
  </p>
 
  <p><span style="background: #FFFF00">
- Upgrade warning: in version 1.15 there was an implementation of <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineCallbackServlet/.html#newJsonFactoryInstance()"><TT>.newJsonFactoryInstance()</TT></A>
+ Upgrade warning: in version 1.15 there was an implementation of <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineCallbackServlet/.html#newJsonFactoryInstance()"><TT>.newJsonFactoryInstance()</TT></A>
  that used {@code com.google.api.client.json.jackson.JacksonFactory}, but starting with version
  1.16 there is no such implementation.
  </p>
@@ -98,17 +98,17 @@ Similarly, documentation which was inherited from another class or interface is 
  </span>@author moshenko@google.com (Jacob Moshenko)
  @since 1.4</blockquote>
 <hr align="left" width="100%">
-<A NAME="com.google.api.client.extensions.appengine.auth.AbstractAppEngineFlowServlet!class"></A><a href="com.google.api.client.extensions.appengine.auth.AbstractAppEngineFlowServlet.html" class="hiddenlink">Class <b>AbstractAppEngineFlowServlet</b></a><br><br><blockquote><A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineFlowServlet/Beta.html"><TT>Beta</TT></A> <br/>
- This class fills in some of the unknowns of the generic <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineFlowServlet/AbstractFlowUserServlet.html"><TT>AbstractFlowUserServlet</TT></A> with
+<A NAME="com.google.api.client.extensions.appengine.auth.AbstractAppEngineFlowServlet!class"></A><a href="com.google.api.client.extensions.appengine.auth.AbstractAppEngineFlowServlet.html" class="hiddenlink">Class <b>AbstractAppEngineFlowServlet</b></a><br><br><blockquote><A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineFlowServlet/Beta.html"><TT>Beta</TT></A> <br/>
+ This class fills in some of the unknowns of the generic <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineFlowServlet/AbstractFlowUserServlet.html"><TT>AbstractFlowUserServlet</TT></A> with
  reasonable defaults for App Engine. This servlet requires that the App Engine user must be logged
  in to work correctly.
 
  <p>
- Warning: starting with version 1.7, usage of this for OAuth 2.0 is deprecated. Instead use <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineFlowServlet/com/google/api/client/extensions/appengine/auth/oauth2/AbstractAppEngineAuthorizationCodeServlet.html"><TT>com.google.api.client.extensions.appengine.auth.oauth2.AbstractAppEngineAuthorizationCodeServlet</TT></A>.
+ Warning: starting with version 1.7, usage of this for OAuth 2.0 is deprecated. Instead use <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineFlowServlet/com/google/api/client/extensions/appengine/auth/oauth2/AbstractAppEngineAuthorizationCodeServlet.html"><TT>com.google.api.client.extensions.appengine.auth.oauth2.AbstractAppEngineAuthorizationCodeServlet</TT></A>.
  </p>
 
  <p><span style="background: #FFFF00">
- Upgrade warning: in version 1.15 there was an implementation of <A HREF="../Google API Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineFlowServlet/.html#newJsonFactoryInstance()"><TT>.newJsonFactoryInstance()</TT></A>
+ Upgrade warning: in version 1.15 there was an implementation of <A HREF="../Google OAuth Client Library for Java 1.16.0-rc/com/google/api/client/extensions/appengine/auth/AbstractAppEngineFlowServlet/.html#newJsonFactoryInstance()"><TT>.newJsonFactoryInstance()</TT></A>
  that used {@code com.google.api.client.json.jackson.JacksonFactory}, but starting with version
  1.16 there is no such implementation.
  </p>
